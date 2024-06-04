@@ -6,8 +6,4 @@
     height: 2em;
     width: 100vw;
     background-color: var(--color-primary);
-
-    >*{
-        border: var(--tmp-border);
-    }
 }

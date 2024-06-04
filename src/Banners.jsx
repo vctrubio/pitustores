@@ -23,9 +23,9 @@ export const BannerDesc = () => {
                     </p>
                 </div>
             </flex>
-            <flex className='banner-cartoon'>
+            <div className='banner-cartoon'>
                 <div className='margin-up-down'>
-                    <div className="icon-text">
+                    <div className="icon-text" style={{marginRight: '25px'}}>
                         <img src={logo} alt="Icon" />
                         Calor bajo demanda
                     </div>
@@ -44,7 +44,7 @@ export const BannerDesc = () => {
                 </div>
                 <div className='banner-cartoon-photo'>
                 </div>
-            </flex>
+            </div>
         </>
     )
 }

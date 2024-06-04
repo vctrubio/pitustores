@@ -1,19 +1,18 @@
+@import './index.css';
+
 .banner-photo {
     width: 100vw;
     height: 92vh;
     object-fit: cover;
     object-position: center;
     background-color: rgb(99, 96, 90);
-    border: var(--tmp-border);
     text-align: center;
     align-content: center;
     align-items: center;
 }
 
 .banner-desc {
-
     justify-content: center;
-
     align-items: center;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -47,26 +46,28 @@
 }
 
 .banner-cartoon {
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;*/
     align-items: center;
-    background-color: blueviolet;
+    background-color: #666666;
     width: 100%;
     height: 500px;
+    gap: 2em;
 }
 
-.banner-cartoon-photo{
-    height: 500px;
-    width: 400px;
+.banner-cartoon-photo {
+    height: 100%;
+    width: 50vw;
     border: 1px solid black;
-    background-color: antiquewhite;
+    background-color: rgb(207, 194, 176);
     border-radius: 15px;
 }
 
-
 .icon-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    text-align: right;
+    align-self: center;
+    padding-right: 10em;
 }
 
 .icon-text img {
@@ -75,8 +76,24 @@
 
 
 .margin-up-down {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
     >* {
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-cartoon-photo {
+        display: none;
+    }
+
+    .margin-up-down {
+        width: 100vw;
+    }
+    .icon-text{
+        padding: 0;
     }
 }
