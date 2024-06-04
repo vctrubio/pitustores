@@ -87,9 +87,9 @@ button:focus-visible {
   }
 }
 
-@media (max-width: var(--mobile-md)) 
+@media (max-width: 768px) 
 {
-  .flex {
+  flex {
       flex-direction: column;
   }
 }

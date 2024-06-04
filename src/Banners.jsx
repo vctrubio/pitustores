@@ -13,7 +13,7 @@ export const BannerPhoto = () => {
 export const BannerDesc = () => {
     return (
         <>
-            <div className='banner-desc'>
+            <flex className='banner-desc'>
                 <div className='banner-desc-photo'>
                 </div>
                 <div className='banner-desc-info'>
@@ -22,7 +22,7 @@ export const BannerDesc = () => {
                         Warme es una revolucion para ofrecer un mejor servicio en tu negocio, con nuestra tecnología de bajo voltaje y alimentación externa, diseñada específicamente para el sector hostelero, garantizando una experiencia cálida y acogedora en cualquier situación climática.
                     </p>
                 </div>
-            </div>
+            </flex>
             <flex className='banner-cartoon'>
                 <div className='margin-up-down'>
                     <div className="icon-text">

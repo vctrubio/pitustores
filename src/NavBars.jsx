@@ -21,12 +21,12 @@ export const NavBar = () => {
     return (
       <div className='nav-bar'>
   
-        <flex className='navbar-menu'>
+        <div className='navbar-menu'>
           <div>Acerca</div>
           <div>Calculador</div>
           <div>Producto</div>
           <div>Contacto</div>
-        </flex>
+        </div>
         <flex className='navbar-lang'>
           <div className="bordered">ES</div>
           <div>EN</div>

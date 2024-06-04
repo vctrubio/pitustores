@@ -1,5 +1,5 @@
 .banner-photo {
-    width: 100%;
+    width: 100vw;
     height: 92vh;
     object-fit: cover;
     object-position: center;
@@ -11,8 +11,7 @@
 }
 
 .banner-desc {
-    display: flex;
-    flex-direction: row;
+
     justify-content: center;
 
     align-items: center;

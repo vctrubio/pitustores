@@ -7,12 +7,15 @@
     width: 100vw;
 
     background-color: var(--color-navbar);
-    >*{
+
+    >* {
         padding-top: 2em;
     }
 }
 
 .navbar-menu {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -23,15 +26,17 @@
 }
 
 .navbar-lang {
+    display: none;
     position: absolute;
     right: 15%;
 }
 
-
 @media (max-width: var(--mobile-md)) {
-    .navbar-menu >* {
+    .navbar-menu>* {
         margin: 0 .5em 0 .5em;
     }
+
+
 }
 
 /* // */
@@ -46,7 +51,9 @@
     content: "";
     position: absolute;
     right: 0;
-    top: 25%; /* Adjust these values */
-    bottom: 0%; /* Adjust these values */
+    top: 25%;
+    /* Adjust these values */
+    bottom: 0%;
+    /* Adjust these values */
     border-right: 1px solid black;
 }

@@ -21,7 +21,7 @@ const ContactForm = () => {
     <>
     </>
   )
-}
+}                                             
 
 const Footer = () => {
   return (
@@ -33,12 +33,12 @@ const Footer = () => {
 function App() {
 
   return (
-    <>
+    <div style={{overflow: 'hidden'}}>
       <TopNavBar />
       <NavBar />
       <BannerPhoto />
       <BannerDesc />
-    </>
+    </div>
   )
 }
 
